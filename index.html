@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="css/aos.css">
   <link href="css/jquery.mb.YTPlayer.min.css" media="all" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/home.css">
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -48,11 +49,89 @@
         </div>
       </div>
     </div>
+ 
+    <div class="site-section py-5 bg-light custom-border-bottom" data-aos="fade">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 order-md-2">
+            <div class="block-16">            
+            </div>
+          </div>
+          <div>
+            <div class="project-header pt-3 mb-4 project-group">
+              <h2 class="text-black " style='font-family: sans-serif'>Projects</h2>
+               <p> The outcomes of hardwork! </p>            
+            </div>
+            
+            <div class='projects'>
+              <div class='group'>
+              
+              <a href='https://github.com/DerekStegall/get-famous' class='code-snippet1'>Code snippet</a>
+              <div class='project-items'>
+               <a  href='https://derekstegall.github.io/benchmark/' ><div class='project-name1'>Small Business Website</div>
+                  </a>
+                <p class='first-description description'>A small business website designed with <strong>HTML</strong> and <strong>CSS.</strong>
+                  This site provides three pages: a Home page, About page and Courses page.
+                </p><div class='item1'></div>
+              </div>
 
-    <div class='education-section'>
+              <p class='code-snippet2'>Code snippet on CodePen</p>
+              <div class='project-items'>
+              <a href='https://codepen.io/derekstegall/pen/RwbgRNy'><div class='project-name2'>Code Pen Activity</div>
+                  </a>
+                  <p class='second-description description'>
+                    A CodePen activity allowing you to hover several tags and see how they interact. This project was formed with 
+                    <strong>HTML</strong> and <strong>CSS</strong>.
+                  </p> <div class='item2'></div></div>
+                
+                <a href='https://github.com/DerekStegall/treasure-game' class='code-snippet3'>Code snippet</a>
+                <div class='project-items'><a href='https://derekstegall.github.io/treasure-game/' ><div class='project-name3'>PROJECT 3</div></a>
+                  <p class='third-description description'>
+                    Guessing game, select treasure chest in hopes that you'll find the treasure. Created with <strong>HTML</strong> and <strong>CSS</strong>.
+                  </p><div class='item3'></div></p>
+               
+                <style>
+                    .project-name1:hover {
+                    background-image: url('images/small_business.png');
+                    height: 6rem;
+                    background-size: cover;
+                    background-repeat: no-repeat;          
+                    border-radius: 10%;
+                    color: transparent;
+                        }
+                    .project-name2:hover {
+                        background-image: url("images/codepen.png");
+                        height: 6rem;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        border-radius: 10%;
+                        color: transparent;
+                      }
+                    .project-name3:hover {
+                        background-image: url("images/treasure game.png");
+                        height: 6rem;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        border-radius: 10%;
+                        color: transparent;
+                      }
+                </style>
+               
+              </div>
+            </div>
+            </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+                <div class='education-section'>
       <div class="site-section py-5 custom-border-bottom" data-aos="fade">
         <div class="container">
-        <a href='documents/Derek_Stegall_Resume.pdf'><h2 id='resume'>Resume <i class="icon-file"></i></h2></a>
+        <a href='documents/Derek Stegall 2020 Resume.pdf'><h2 id='resume'>Resume <i class="icon-file"></i></h2></a>
           <div class="row mb-5">
             <div>
               <div class="imageborder">
@@ -66,23 +145,6 @@
             </div>
 
             <div class="col-md-5">
-
-              <style>
-                #resume {
-                  position: absolute;
-                  right: 10rem;;
-                  top: 3rem;
-                  font-size: 1.3rem;
-                  text-decoration: underline;
-                }
-                #resume:hover {
-                  color: orange;
-                }
-                a{
-                  color: inherit;
-                }
-                
-              </style>
 
                               
               <div class="education pt-3 mb-4">
@@ -104,145 +166,6 @@
         </div>
       </div>
     </div>
-
-
-
-    <div class="site-section py-5 bg-light custom-border-bottom" data-aos="fade">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 order-md-2">
-            <div class="block-16">
-              
-            </div>
-          </div>
-          <div>
-          <style>
-              .project-group {
-                flex-wrap: wrap;
-                width: 20rem;
-              }
-              .projects {
-                display: flex;
-              }
-              .computertyping {
-                margin-right: 2rem;
-              }
-              .project-items {
-                flex: 1;
-                margin: 1rem;
-          
-              }
-              .group {
-                display: flex;
-          
-                flex-wrap: wrap;
-              }
-              .item1 {
-                background-image: url('images/small_business.png');
-                height: 6rem;
-                background-size: cover;
-                background-repeat: no-repeat;
-                display: none;
-                border-radius: 10%;
-              }
-              .item2 {
-                background-image: url('images/codepen.png');
-                height: 6rem;
-                background-size: cover;
-                background-repeat: no-repeat;
-                display: none;
-                border-radius: 10%;
-              }
-          
-              .project-name1, .project-name2, .project-name3 {
-                background-color: white;
-                border: orange solid;
-                border-radius: 10%;
-                color: orange;
-                padding: 1rem;
-                width: 16rem;
-                text-align: center;
-              }
-              .project-name1:hover {
-                background-image: url('images/small_business.png');
-                height: 6rem;
-                background-size: cover;
-                background-repeat: no-repeat;          
-                border-radius: 10%;
-                color: transparent;
-              }
-              .project-name2:hover {
-                background-image: url('images/codepen.png');
-                height: 6rem;
-                background-size: cover;
-                background-repeat: no-repeat;
-                border-radius: 10%;
-                color: transparent;
-              }
-              .first-description {
-                color: gray;
-              }
-              .second-description {
-                color: gray;
-              }
-              .third-description {
-                color: gray;
-              }
-              strong {
-                color: orange;
-              }
-          </style>
-
-
-
-
-            <div class="project-header pt-3 mb-4 project-group" style='display: flex;'>
-              <h2 class="text-black " style='font-family: sans-serif'>Projects</h2>
-               <p> The outcomes of hardwork! </p>
-                
-          
-              
-            </div>
-
-           
-
-            <div class='projects'>
-              <div class='group'>
-                <a class='project-items' href='https://derekstegall.github.io/benchmark/' ><div class='project-name1'>Small Business Website</div>
-
-                <p class='first-description'>A small business website designed with <strong>HTML</strong> and <strong>CSS.</strong>
-                  This site provides three pages: a Home page, About page and Courses page.
-                </p><div class='item1'></div></a>
-                <a class='project-items' href='https://codepen.io/derekstegall/pen/RwbgRNy'><div class='project-name2'>Code Pen Activity</div>
-
-                  <p class='second-description'>
-                    A CodePen activity allowing you to hover several tags and see how they interact. This project was formed with 
-                    <strong>HTML</strong> and <strong>CSS</strong>.
-                  </p>
-                <div class='item2'></div></a>
-                <a class='project-items' href='#'><div class='project-name3'>PROJECT 3</div>
-
-                  <p class='third-description'>
-                    Coming Soon...
-                  </p><div class='item3'></div></a>
-
-              </div>
-            </div>
-
-
-
-
-
-          </div>
-        </div>
-      </div>
-
-
-
-
-    </div>
-  </div>
-
   <div class="site-section site-section-sm site-blocks-1 border-0" data-aos="fade">
     <div class="container">
       <div class="row">
@@ -282,11 +205,6 @@
       </div>
     </div>
   </div>
-  <style>
-    h2 {
-      font-family: 'Cinzel';
-      font-size: 37px;
-  </style>
   <h2 style='color: orange'>
     <center>Inspirational Quotes</center>
 
@@ -295,9 +213,7 @@
     <div class="container">
       <div class="owl-carousel owl-slide-3 owl-slide">
 
-
-
-        <blockquote class="testimony">
+       <blockquote class="testimony">
           <img style='border-color: orange;' src="images/Marcel proust.jpeg" alt="Image">
           <p>&ldquo;We must never be afraid to go too far, for success lies just beyond.&rdquo;</p>
           <p style='color: orange;' class="small">&mdash; Marcel Proust</p>
@@ -323,10 +239,6 @@
       </div>
     </div>
   </div>
-
-
-
-
   <div class="footer">
     <div class="container">
 

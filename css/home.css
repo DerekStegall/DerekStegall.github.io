@@ -1,0 +1,129 @@
+a {
+  color: inherit;
+}
+.code-snippet1 {
+  position: absolute;
+  top: 10rem;
+}
+.code-snippet1:hover {
+  color: orange;
+}
+.code-snippet2 {
+  position: absolute;
+  top: 10rem;
+  left: 30rem;
+}
+.code-snippet2:hover {
+  color: orange;
+}
+.code-snippet3 {
+  position: absolute;
+  top: 10rem;
+  right: 20rem;
+}
+.code-snippet3:hover {
+  color: orange;
+}
+.project-group {
+  width: 30rem;
+  position: relative;
+}
+.group {
+  display: flex;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+.computertyping {
+  margin-right: 2rem;
+}
+.project-items {
+  flex: 1;
+  margin: 1rem;
+}
+.item1 {
+  background-image: url("images/small_business.png");
+  height: 6rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: none;
+  border-radius: 10%;
+}
+.item2 {
+  background-image: url("images/codepen.png");
+  height: 6rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: none;
+  border-radius: 10%;
+}
+
+.project-name1,
+.project-name2,
+.project-name3 {
+  background-color: white;
+  border: orange solid;
+  border-radius: 10%;
+  color: orange;
+  padding: 1rem;
+  width: 16rem;
+  text-align: center;
+  position: absolute;
+}
+.project-name1:hover {
+  background-image: url("images/small_business.png");
+  height: 6rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  color: transparent;
+}
+.project-name2:hover {
+  background-image: url("images/codepen.png");
+  height: 6rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  color: transparent;
+}
+.project-name3:hover {
+  background-image: url("images/coming_soon.jpeg");
+  height: 6rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10%;
+  color: transparent;
+}
+.first-description {
+  color: gray;
+}
+.second-description {
+  color: gray;
+}
+.third-description {
+  color: gray;
+}
+.description {
+  margin-top: 7rem;
+}
+strong {
+  color: orange;
+}
+#resume {
+  position: absolute;
+  left: 6rem;
+  bottom: 3rem;
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+#resume:hover {
+  color: orange;
+}
+a {
+  color: inherit;
+}
+h2 {
+  font-family: "Cinzel";
+  font-size: 37px;
+}
