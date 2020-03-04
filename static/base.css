@@ -1,0 +1,76 @@
+body{
+    background-image: url(images/clay-banks-I1GrjcmmJxQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+}
+.name-space{
+    background-color: transparent;
+    color: white;
+}
+.logo{
+    height: 13rem;
+}
+.projects{
+    display: flex;
+}
+
+.pro1{
+    background-image: url(images/treasure-game-ss.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 7rem;
+    border: white;
+}
+
+.pro2{
+    background-image: url(images/small_business.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 7rem;
+    border: white;
+}
+
+.pro3{
+    background-image: url(images/ascent-spring-api-screenshot.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 7rem;
+    border: white;
+}
+strong{
+    color: #ff9800;;
+}
+.resume-link{
+    color: white;
+}
+a{
+    color: #ff9800;
+}
+ul{
+    list-style: square;
+}
+.description{
+    font-size: 1.8rem;
+}
+.email{
+    color: #ff9800;
+}
+.title{
+    margin-bottom: 2rem;
+}
+
+.bg-special-blue {
+    background-color: hsla(210, 50%, 40%, 0.712);
+    backdrop-filter: blur(10px);
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+.card-img-top:Hover {
+    box-shadow: 3px 3px 3px 3px #ff9800;
+    transition: ease-in-out .15s;
+}
